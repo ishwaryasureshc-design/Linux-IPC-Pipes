@@ -23,6 +23,7 @@ Testing the C Program for the desired output.
 
 # PROGRAM:
 ## C program that illustrate communication between  two process using unnamed pipes
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -115,6 +116,7 @@ void client(int wfd, int rfd)
 ```
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
+
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -225,17 +227,15 @@ void client()
 
 ## OUTPUT
 
-<img width="322" height="186" alt="Screenshot 2026-08-18 081655" src="https://github.com/user-attachments/assets/31aa3f06-458c-40a6-9552-5eeefcb8a2a4" />
 
-
+![Alt text](<image/exp03 11.png>)
 
 
 
 
 ## OUTPUT
 
-<img width="394" height="152" alt="Screenshot 2026-08-18 091912" src="https://github.com/user-attachments/assets/afc61ce9-2984-430b-a513-2adbddf27e70" />
-
+![Alt text](image/exp03.png)
 
 # RESULT:
 The program is executed successfully.
